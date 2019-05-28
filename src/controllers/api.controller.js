@@ -3,7 +3,7 @@ import pdf from 'html-pdf'
 import fs from 'fs'
 import path from 'path'
 
-import { GeneratePdf } from '../utils/invoice.pdf'
+import { GeneratePdf } from '../utils/invoice.pdf.js'
 
 //const template = path.join(__dirname, 'invoice.html')
 const html = fs.readFileSync( './src/utils/invoice.html' , 'utf8' );
