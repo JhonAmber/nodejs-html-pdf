@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "html-pdf": "^2.2.0",
     "morgan": "^1.9.1"
   },
